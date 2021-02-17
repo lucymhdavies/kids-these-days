@@ -14,3 +14,13 @@ https://dev.to/stratospher/many-bot-accounts-using-1-twitter-developer-account-1
 https://gist.github.com/moonmilk/035917e668872013c1bd
 
 (Remember to edit the values at the top of `authorize.js`)
+
+
+Store your creds in a .env file. The first two are from your Twitter app. The second two are generated from the `authorize.js`
+
+```
+CONSUMER_KEY=
+CONSUMER_SECRET=
+ACCESS_TOKEN=
+ACCESS_SECRET=
+```
