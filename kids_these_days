@@ -1,4 +1,6 @@
 #!/bin/bash
 
+how_many=$(shuf -i 2-4 -n 1)
+
 echo -n "You kids these days and your "
-curl -s "https://en.wikipedia.org/w/api.php?action=query&list=random&format=json&rnnamespace=0&rnlimit=3" | jq -r '[ .query.random[].title ] | join(", and your ")'
+curl -s "https://en.wikipedia.org/w/api.php?action=query&list=random&format=json&rnnamespace=0&rnlimit=${how_many}" | jq -r '[ .query.random[].title ] | join(", and your ")'
