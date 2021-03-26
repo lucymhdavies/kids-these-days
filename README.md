@@ -1,5 +1,9 @@
 # Kids These Days
 
+<a href="http://www.wtfpl.net/"><img
+       src="http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-4.png"
+       width="80" height="15" alt="WTFPL" /></a>
+
 Code based on https://jonaylor89.hashnode.dev/creating-a-twitter-bot-in-go
 
 ## Credentials
