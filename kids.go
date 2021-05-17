@@ -28,7 +28,7 @@ type RandomWikiArticles struct {
 
 func wikiArticles() ([]string, error) {
 	min := 2 // >=
-	max := 5 // <
+	max := 3 // <
 	rand.Seed(time.Now().UTC().UnixNano())
 	numArticles := rand.Intn(max-min) + min
 	log.Infof("Generating %d articles", numArticles)
